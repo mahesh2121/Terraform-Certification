@@ -1,13 +1,3 @@
-terraform {
-  cloud {
-    organization = "Maheshcloudx"
-
-    workspaces {
-      name = "learn-terraform-github-actions"
-    }
-  }
-}
-
 resource "random_password" "password" {
   keepers = {
     datetime = timestamp()
