@@ -12,7 +12,7 @@ resource "random_password" "password" {
   keepers = {
     datetime = timestamp()
   }
-  length  = 16
+  length  = 18
   special = true
 }
 
