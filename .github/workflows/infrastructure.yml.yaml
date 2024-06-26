@@ -47,7 +47,6 @@ jobs:
         id: plan
         continue-on-error: true
         run: |
-          cp tfvars/$TF_WORKSPACE.tfvars $TF_WORKSPACE.auto.tfvars
           terraform plan -no-color
 
       - name: Attach terraform plan output
