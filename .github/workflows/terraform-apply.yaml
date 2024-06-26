@@ -13,14 +13,14 @@ env:
   CONFIG_DIRECTORY: "./"
 ## ...
 ## ...
-jobs:
-  terraform:
-    if: github.repository != 'mahesh2121/Terraform-Certification'
-    name: "Terraform Apply"
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    steps:
+# jobs:
+#   terraform:
+#     if: github.repository != 'mahesh2121/Terraform-Certification'
+#     name: "Terraform Apply"
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: read
+#     steps:
 ## ...
 ## ...
 - name: Checkout
