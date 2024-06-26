@@ -15,7 +15,7 @@ env:
 ## ...
 jobs:
   terraform:
-    if: github.repository != 'hashicorp-education/learn-terraform-github-actions'
+    if: github.repository != 'mahesh2121/Terraform-Certification'
     name: "Terraform Apply"
     runs-on: ubuntu-latest
     permissions:
@@ -50,3 +50,4 @@ jobs:
   with:
     run: ${{ steps.apply-run.outputs.run_id }}
     comment: "Apply Run from GitHub Actions CI ${{ github.sha }}"
+    
