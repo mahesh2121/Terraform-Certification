@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./infrastructure
-    env:
+        working-directory: ./noncloudproviders
+        env:
       TF_WORKSPACE: main
     steps:
     - name: Checkout
