@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./mutliregion
+        working-directory: ./multiregion
     env:
       TF_WORKSPACE: main
     steps:
